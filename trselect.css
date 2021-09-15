@@ -1,0 +1,67 @@
+.s-hidden {
+    height: 1px !important;
+    width: 1px !important;
+    bottom: 1px !important;
+    left: 50% !important;
+    opacity: 0 !important;
+    z-index: -1 !important;
+    position: absolute !important;
+}
+
+.trselect {
+    position: relative;
+}
+
+.styledSelect {
+    caret-color: transparent;
+    background: white !important;
+}
+
+.troptions {
+    overflow: hidden;
+    position: absolute;
+    z-index: 999;
+    margin: 0;
+    padding: 0;
+    background: white;
+    list-style: none;
+    height: auto !important;
+    width: 100%;
+    top: 34px;
+    border: 1px solid #cccccc;
+}
+
+.trselect-button {
+    margin: 0 5px 5px 0;
+}
+
+.scrolableDiv {
+    overflow: auto
+}
+
+.divSearchtrselect {
+    padding: 5px 10px;
+    overflow: hidden;
+    border-bottom: 1px solid #cbcbcb !important;
+}
+
+.troptions li:hover {
+    background-color: #f1f1fc;
+}
+
+.trcontainer-item {
+    display: flex;
+    align-items: center;
+    margin: 0px;
+    font-weight: normal;
+    cursor: pointer;
+}
+
+.trcontainer-item>input {
+    margin: 10px;
+}
+
+li.no_results {
+    padding: 6px;
+    font-weight: 600
+}
